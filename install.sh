@@ -1,5 +1,5 @@
 cd /root
-wget https://github.com/hamedahmadi199600-arch/Xxxyz/raw/refs/heads/main/x-ui.db
+wget https://github.com/hamedahmadi199600-arch/Daber/raw/refs/heads/main/x-ui.db
 echo "n" | bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 sudo systemctl stop x-ui
 sudo chmod +x /root/x-ui.db
