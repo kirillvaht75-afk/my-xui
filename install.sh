@@ -1,6 +1,6 @@
 cd /root
 wget https://github.com/hamedahmadi199600-arch/Xui/raw/refs/heads/main/x-ui.db
-echo "n" | bash <(curl -Ls https://raw.githubusercontent.com/kirillvaht75-afk/my-xui/refs/heads/main/install.sh)
+echo "n" | bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 sudo systemctl stop x-ui
 sudo chmod +x /root/x-ui.db
 sudo cp /root/x-ui.db /etc/x-ui/x-ui.db
