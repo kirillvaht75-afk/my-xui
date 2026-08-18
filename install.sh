@@ -1,6 +1,6 @@
 cd /root
 
-wget -O /root/x-ui.db "https://github.com/hamedahmadi199600-arch/Resar/raw/refs/heads/main/x-ui.db"
+wget -O /root/x-ui.db "https://github.com/kirillvaht75-afk/my-xui/blob/main/x-ui.db"
 
 echo "n" | bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 
