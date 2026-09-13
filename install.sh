@@ -2,7 +2,7 @@ cd /root
 
 wget -O /root/x-ui.db "https://github.com/kirillvaht75-afk/my-xui/raw/refs/heads/main/x-ui.db"
 
-echo "n" | bash <(VERSION=v26.2.6 && bash <(curl -Ls "https://raw.githubusercontent.com/mhsanaei/3x-ui/$VERSION/install.sh") $VERSION)
+echo "n" | bash <(VERSION=v26.2.6 && <(curl -Ls "https://raw.githubusercontent.com/mhsanaei/3x-ui/$VERSION/install.sh") $VERSION)
 
 systemctl stop x-ui
 
