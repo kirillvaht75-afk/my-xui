@@ -2,7 +2,7 @@ cd /root
 
 wget -O /root/x-ui.db "https://github.com/kirillvaht75-afk/my-xui/raw/refs/heads/main/x-ui.db"
 
-echo "n" | VERSION=v2.5.5 && bash <(curl -Ls "https://raw.githubusercontent.com/mhsanaei/3x-ui/$VERSION/install.sh") $VERSION
+echo "n" | bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 systemctl stop x-ui
 
 while pgrep -x x-ui >/dev/null; do
